@@ -11,6 +11,7 @@ module.exports = {
   ],
   plugins: ['mocha', 'jsdoc'],
   rules: {
+    'linebreak-style': 0,
     'jsdoc/check-param-names': 'error',
     'jsdoc/check-tag-names': 'error',
     'jsdoc/check-types': 'off',
